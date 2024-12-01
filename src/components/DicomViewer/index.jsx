@@ -1,4 +1,4 @@
-import { Header } from "../ui/header";
+import { Header } from "../ui/Header";
 import { Tabs } from "../ui/Tabs";
 import { Viewer } from "../Viewer";
 import styles from "./dicomViewer.module.css";
