@@ -1,0 +1,10 @@
+.toolbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 5px 10px 5px;
+    align-items: center;
+    justify-content: center;
+}

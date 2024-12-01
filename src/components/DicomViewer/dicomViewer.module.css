@@ -1,0 +1,10 @@
+.dicomContainer {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100vw;
+    height: calc(100% - 8vh);
+    display: flex;
+}

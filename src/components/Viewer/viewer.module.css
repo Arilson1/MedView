@@ -1,0 +1,7 @@
+.viewerContainer {
+    width: 99.5%;
+    height: 80vh; /* Adapte conforme necessário */
+    border: 1px solid #5664F5;
+    background-color: black;
+    margin: auto;
+}

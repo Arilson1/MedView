@@ -1,0 +1,51 @@
+.tabConatainer {
+    width: 20vw;
+    border-left: 1px solid var(--shadow-color);
+}
+
+.tabNav {
+    width: 100%;
+}
+
+.tabButton {
+    width: 50%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--text-primary);
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.tabButton:hover {
+    background-color: var(--shadow-color);
+}
+
+.tabButton.active {
+    background-color: var(--background-secondary, #3944BC);
+}
+
+.tabContent {
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--text-primary);
+}
+
+.metadataContent,
+.aiContent {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

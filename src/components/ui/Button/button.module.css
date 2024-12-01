@@ -1,0 +1,32 @@
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: .8rem;
+    background-color: var(--background-secondary);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: #3d4bd9;
+}
+
+.active {
+    background-color: #3d4bd9;
+    color: #ffffff;
+}
+
+.disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.disabled:hover {
+    background-color: #ccc;
+}
